@@ -12,6 +12,3 @@ class Box(Turtle):
         self.penup()
         self.color(random.choice(self.colors))
         self.shapesize(stretch_len=5, stretch_wid=2)
-
-    def delete(self):
-        self.hideturtle()
